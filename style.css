@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #FBFBFB;
+    margin: 0px;
+    font-family: 'Montserrat';
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px 0;
+    height: 50px;
+    font-family: 'Montserrat'
+}
+
+nav {
+    display: flex;
+    color: rgb(94, 44, 107);
+}
+
+
+.branding {
+    color: #622F72;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 0px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.button {
+    background: #622F72;
+    border-radius: 25px;
+    color: #ffffff;
+    border: 0;
+    padding: 10px 30px;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgb(247, 189, 1);
+}
+
+.some {
+    padding: 0 100px;
+    margin-top: 50px;
+}
+
+.content {
+    background-image: url(./image/staysafe.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50% 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1.title {
+    color:#622F72;
+    font-weight: 800;
+    font-size: 50px;
+    margin: 0;
+}
+
+h3 {
+    color: #622F72;;
+    font-weight: 700;
+    font-size: 34px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #622F72;
+    font-weight: 700;
+    font-size: 0.8em;
+    width: 35%;
+}
+
+.foot {
+    color: rgb(247, 189, 1);
+    margin-top: 25px;
+}
+
+
+.footer a {
+    margin-right: 10px;
+    
+}
+
+.footer a img {
+    width: 24px;
+    height: 24px;
+} 
+
+.footer:hover {
+    color: rgb(247, 189, 1);
+}
